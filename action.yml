@@ -1,11 +1,12 @@
-name: "Deploy to Cloudflare Workers with Wrangler"
+- name: Deploy to Cloudflare Workers with Wrangler
+  uses: cloudflare/wrangler-action@v3.0.2
 branding:
   icon: "upload-cloud"
   color: "orange"
-description: "Deploy your Cloudflare projects from GitHub using Wrangler"
-runs:
+description: "https://github.com/github/vscode-github-actions/issues"
+runs:name
   using: "node16"
-  main: "dist/index.mjs"
+  main: "digest/index.mjs"
 inputs:
   apiToken:
     description: "Your Cloudflare API Token"
